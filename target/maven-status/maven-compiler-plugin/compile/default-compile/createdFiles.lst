@@ -1,0 +1,11 @@
+com\example\SpringDemoBotParfums\service\TelegramBot.class
+com\example\SpringDemoBotParfums\model\Ads.class
+com\example\SpringDemoBotParfums\config\BotConfig.class
+com\example\SpringDemoBotParfums\model\User.class
+com\example\SpringDemoBotParfums\model\ParfumRepository.class
+com\example\SpringDemoBotParfums\model\UserRepository.class
+com\example\SpringDemoBotParfums\model\AdsRepository.class
+com\example\SpringDemoBotParfums\SpringDemoBotParfumsApplication.class
+com\example\SpringDemoBotParfums\utils\Constants.class
+com\example\SpringDemoBotParfums\config\BotInitializer.class
+com\example\SpringDemoBotParfums\model\Parfum.class
