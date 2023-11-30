@@ -1462,3 +1462,97 @@ org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error exe
 2023-11-30 13:01:45,508 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-11-30 13:01:45,513 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2023-11-30 13:01:45,544 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-30 13:03:38,608 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 13:03:38,744 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
+2023-11-30 13:03:39,180 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-11-30 13:03:39,205 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 15384 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
+2023-11-30 13:03:39,206 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 13:03:40,045 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 13:03:40,117 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 62 ms. Found 3 JPA repository interfaces.
+2023-11-30 13:03:40,649 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 13:03:40,723 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-11-30 13:03:40,770 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-11-30 13:03:41,165 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 13:03:41,203 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-30 13:03:41,627 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32d22650
+2023-11-30 13:03:41,631 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-30 13:03:42,858 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 13:03:42,903 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 13:03:44,475 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 5.553 seconds (process running for 7.15)
+2023-11-30 13:03:44,648 ERROR o.t.t.u.DefaultBotSession [ParfumchikDemoBot Telegram Connection] Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseInternal(PartialBotApiMethod.java:54)
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseArray(PartialBotApiMethod.java:39)
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:258)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:188)
+2023-11-30 13:03:45,210 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 13:03:45,213 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-30 13:03:45,227 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-30 13:10:35,188 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 13:10:35,192 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-30 13:10:35,204 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-30 13:10:49,743 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 13:10:49,869 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
+2023-11-30 13:10:50,398 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-11-30 13:10:50,433 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 19240 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
+2023-11-30 13:10:50,436 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 13:10:51,387 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 13:10:51,478 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+2023-11-30 13:10:52,049 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 13:10:52,133 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-11-30 13:10:52,195 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-11-30 13:10:52,642 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 13:10:52,678 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-30 13:10:53,102 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@106459d9
+2023-11-30 13:10:53,105 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-30 13:10:54,313 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 13:10:54,363 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 13:10:55,987 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 5.913 seconds (process running for 7.851)
+2023-11-30 13:10:56,679 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 13:10:56,682 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-30 13:10:56,705 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-30 13:12:13,244 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 13:12:13,355 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
+2023-11-30 13:12:13,783 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-11-30 13:12:13,806 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 12948 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
+2023-11-30 13:12:13,807 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 13:12:14,602 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 13:12:14,664 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2023-11-30 13:12:15,222 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 13:12:15,297 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-11-30 13:12:15,355 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-11-30 13:12:15,711 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 13:12:15,757 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-30 13:12:16,177 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bcb1414
+2023-11-30 13:12:16,180 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-30 13:12:17,349 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 13:12:17,403 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 13:12:18,903 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 5.378 seconds (process running for 6.828)
+2023-11-30 13:12:19,611 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 13:12:19,615 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-30 13:12:19,630 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
