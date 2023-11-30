@@ -4,10 +4,7 @@
     "goal": "package"
   },
   "deploy": {
-    "command": "mvn deploy"
-
+    "command": "mvn package",
+    "goal": "package"
   }
 }
-
-
-

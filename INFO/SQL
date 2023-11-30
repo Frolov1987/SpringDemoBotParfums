@@ -5,7 +5,16 @@ CREATE TABLE IF NOT EXISTS users
   phone VARCHAR(56) NOT NULL,
   PRIMARY KEY (id)
 );
-
+USE bi3sdfkm9nrjwecgdorh;
+CREATE TABLE IF NOT EXISTS users_data_table (
+  chat_id BIGINT PRIMARY KEY,
+      first_name VARCHAR(255),
+      last_name VARCHAR(255),
+      user_name VARCHAR(255),
+      phone VARCHAR(20),
+      registered_at TIMESTAMP
+      PRIMARY KEY (id)
+);
 CREATE TABLE users (
     chat_id BIGINT PRIMARY KEY,
     first_name VARCHAR(255),
