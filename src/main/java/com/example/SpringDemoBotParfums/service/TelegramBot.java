@@ -52,7 +52,7 @@ public class TelegramBot extends TelegramLongPollingBot {
             this.execute(new SetMyCommands(listCommands, new BotCommandScopeDefault(),null));
         }
         catch (TelegramApiException e){
-            log.error("Error settings bots command list:" + e.getMessage());
+            log.error("Error settings bots command list:" + e.getMessage(),e);
         }
     }
 

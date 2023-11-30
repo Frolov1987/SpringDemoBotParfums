@@ -1,0 +1,9 @@
+{
+  "build": {
+    "type": "maven",
+    "goal": "package"
+  },
+  "deploy": {
+    "command": "mvn deploy:deploy-file -Dfile=target/SpringDemoBotParfums-0.0.1-SNAPSHOT.jar -Durl=http://app-8351c6eb-078d-442f-80b0-2a64930bf635.cleverapps.io/ -DrepositoryId=app_8351c6eb-078d-442f-80b0-2a64930bf635"
+  }
+}
