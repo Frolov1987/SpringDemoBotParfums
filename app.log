@@ -10365,3 +10365,31 @@ org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error exe
 2023-11-30 21:27:54,257 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-11-30 21:27:54,262 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2023-11-30 21:27:55,575 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-30 21:30:27,288 ERROR o.t.t.u.DefaultBotSession [ParfumchikDemoBot Telegram Connection] Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseInternal(PartialBotApiMethod.java:54)
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseArray(PartialBotApiMethod.java:39)
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:258)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:188)
+2023-11-30 21:30:57,559 ERROR o.t.t.u.DefaultBotSession [ParfumchikDemoBot Telegram Connection] Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseInternal(PartialBotApiMethod.java:54)
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseArray(PartialBotApiMethod.java:39)
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:258)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:188)
+2023-11-30 21:34:31,185 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@79ba0285 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 21:34:31,188 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4bd873ec (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 21:34:31,189 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@26d70701 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 21:34:31,190 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@30f5df60 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 21:34:31,191 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5f49ae66 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 21:34:31,193 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5786f170 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 21:34:31,195 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@49f70b8e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 21:34:31,197 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@57e7d30f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 21:34:31,199 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@45cf7d0b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 21:34:31,200 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@252209b3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 21:34:32,182 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
+2023-11-30 21:34:39,056 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 21:34:39,058 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-30 21:34:39,311 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
