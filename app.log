@@ -7528,3 +7528,110 @@ org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error exe
 2023-11-30 20:14:15,200 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-11-30 20:14:15,205 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2023-11-30 20:14:15,972 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-30 20:16:43,739 ERROR o.t.t.u.DefaultBotSession [ParfumchikDemoBot Telegram Connection] Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseInternal(PartialBotApiMethod.java:54)
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseArray(PartialBotApiMethod.java:39)
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:258)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:188)
+2023-11-30 20:17:16,373 ERROR o.t.t.u.DefaultBotSession [ParfumchikDemoBot Telegram Connection] Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseInternal(PartialBotApiMethod.java:54)
+	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseArray(PartialBotApiMethod.java:39)
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:258)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:188)
+2023-11-30 20:17:30,740 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5e48ba6a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 20:17:30,741 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4475bb09 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 20:17:30,742 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@88c0a8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 20:17:30,746 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1b88b139 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 20:17:30,747 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@39d17826 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 20:17:30,749 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@48015c57 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 20:17:30,751 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7aa31d39 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 20:17:30,752 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@340199a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 20:17:30,753 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@644fa778 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 20:17:30,756 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@266eac42 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-11-30 20:17:31,646 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
+2023-11-30 20:21:52,573 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 20:21:52,575 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-30 20:21:55,631 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-30 20:31:46,013 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 20:31:46,202 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
+2023-11-30 20:31:46,815 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-11-30 20:31:46,842 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 9812 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
+2023-11-30 20:31:46,844 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 20:31:47,716 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 20:31:47,789 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 61 ms. Found 3 JPA repository interfaces.
+2023-11-30 20:31:48,416 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 20:31:48,485 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-11-30 20:31:48,532 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-11-30 20:31:48,950 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 20:31:48,991 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-30 20:31:49,907 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@495da9a7
+2023-11-30 20:31:49,909 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-30 20:31:51,416 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 20:31:51,608 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 20:31:53,593 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 7.09 seconds (process running for 9.016)
+2023-11-30 20:31:54,569 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 20:31:54,572 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-30 20:31:54,604 ERROR o.t.t.u.DefaultBotSession [ParfumchikDemoBot Telegram Executor] Error creating bean with name 'dataSourceScriptDatabaseInitializer': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'dataSourceScriptDatabaseInitializer': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$1.orderedStream(DefaultListableBeanFactory.java:471)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.detectPersistenceExceptionTranslators(PersistenceExceptionTranslationInterceptor.java:167)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:249)
+	at jdk.proxy2/jdk.proxy2.$Proxy117.findById(Unknown Source)
+	at com.example.SpringDemoBotParfums.service.TelegramBot.getProductById(TelegramBot.java:355)
+	at com.example.SpringDemoBotParfums.service.TelegramBot.sendProductDetails(TelegramBot.java:340)
+	at com.example.SpringDemoBotParfums.service.TelegramBot.onUpdateReceived(TelegramBot.java:126)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:312)
+2023-11-30 20:31:55,581 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-30 20:34:18,506 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-11-30 20:34:18,709 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
+2023-11-30 20:34:19,200 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-11-30 20:34:19,227 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 21392 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
+2023-11-30 20:34:19,228 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-30 20:34:20,053 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-30 20:34:20,130 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 65 ms. Found 3 JPA repository interfaces.
+2023-11-30 20:34:20,736 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-30 20:34:20,813 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-11-30 20:34:20,866 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-11-30 20:34:21,261 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-30 20:34:21,299 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-30 20:34:22,138 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48d5ca17
+2023-11-30 20:34:22,141 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-30 20:34:23,376 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-30 20:34:23,560 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 20:34:25,190 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 6.248 seconds (process running for 7.969)
+2023-11-30 20:34:25,913 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-30 20:34:25,917 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-30 20:34:26,930 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
