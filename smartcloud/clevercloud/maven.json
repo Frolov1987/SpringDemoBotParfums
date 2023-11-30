@@ -1,6 +1,0 @@
-{
-  "deploy": {
-    "goal": "deploy",
-    "repositoryId": "app_1fec8006-9a83-47d5-b056-90d79b622473"
-  }
-}
