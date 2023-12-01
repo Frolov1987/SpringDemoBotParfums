@@ -710,3 +710,105 @@ You may wish to exclude one of them to ensure predictable runtime behavior
 2023-12-01 22:10:37,662 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-12-01 22:10:37,675 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2023-12-01 22:10:38,023 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-01 22:18:56,435 INFO c.e.S.SpringDemoBotParfumsApplication [main] Starting SpringDemoBotParfumsApplication using Java 17.0.9 with PID 24740 (G:\Hillel\Works\Test\SpringDemoBotParfums\target\classes started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
+2023-12-01 22:18:56,440 INFO c.e.S.SpringDemoBotParfumsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-01 22:18:57,996 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-01 22:18:58,158 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 139 ms. Found 3 JPA repository interfaces.
+2023-12-01 22:18:59,631 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2023-12-01 22:18:59,645 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2023-12-01 22:18:59,649 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-12-01 22:18:59,650 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-12-01 22:18:59,843 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-12-01 22:18:59,844 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3290 ms
+2023-12-01 22:19:00,196 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-01 22:19:00,334 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-01 22:19:00,423 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-01 22:19:00,876 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-01 22:19:00,926 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-01 22:19:02,023 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-01 22:19:02,205 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-01 22:19:03,895 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-01 22:19:04,120 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-01 22:19:05,916 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2023-12-01 22:19:05,999 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2023-12-01 22:19:06,101 INFO c.e.S.SpringDemoBotParfumsApplication [main] Started SpringDemoBotParfumsApplication in 10.459 seconds (process running for 11.903)
+2023-12-01 22:19:07,402 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
+2023-12-01 22:19:07,776 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
+2023-12-01 22:19:08,145 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
+2023-12-01 22:24:34,704 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5a29f552 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:24:34,712 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@27435d47 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:24:34,714 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@32d5af98 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:24:34,717 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@46ebbc00 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:24:34,719 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6678e5fc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:24:35,252 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
+2023-12-01 22:24:36,254 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
+2023-12-01 22:24:38,539 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
+2023-12-01 22:43:37,431 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@26cf38ae (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:43:37,433 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@fa8d280 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:43:37,435 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@826bbd7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:43:37,436 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@57f3f835 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:43:37,438 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1aae3164 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:43:37,439 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@535bcc63 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:43:37,440 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6e9e3ddc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:43:37,441 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@26e4526a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:43:37,443 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4d2a62c3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:43:37,444 WARN c.z.h.p.PoolBase [ParfumchikDemoBot Telegram Executor] HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@409f97d1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-01 22:47:51,871 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-01 22:47:51,875 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-01 22:47:54,075 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-01 22:57:30,775 INFO c.e.S.SpringDemoBotParfumsApplication [main] Starting SpringDemoBotParfumsApplication using Java 17.0.9 with PID 15680 (G:\Hillel\Works\Test\SpringDemoBotParfums\target\classes started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
+2023-12-01 22:57:30,778 INFO c.e.S.SpringDemoBotParfumsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-01 22:57:32,163 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-01 22:57:32,328 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 137 ms. Found 3 JPA repository interfaces.
+2023-12-01 22:57:33,973 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2023-12-01 22:57:33,985 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2023-12-01 22:57:33,989 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-12-01 22:57:33,989 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-12-01 22:57:34,164 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-12-01 22:57:34,165 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3275 ms
+2023-12-01 22:57:34,539 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-01 22:57:34,634 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-01 22:57:34,710 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-01 22:57:35,136 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-01 22:57:35,183 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-01 22:57:36,555 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-01 22:57:36,920 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-01 22:57:38,581 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-01 22:57:38,822 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-01 22:57:40,817 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2023-12-01 22:57:40,890 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2023-12-01 22:57:40,992 INFO c.e.S.SpringDemoBotParfumsApplication [main] Started SpringDemoBotParfumsApplication in 10.956 seconds (process running for 12.366)
+2023-12-01 22:58:23,479 INFO o.a.c.c.C.[.[.[/] [http-nio-0.0.0.0-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-01 22:58:23,480 INFO o.s.w.s.DispatcherServlet [http-nio-0.0.0.0-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-12-01 22:58:23,481 INFO o.s.w.s.DispatcherServlet [http-nio-0.0.0.0-8080-exec-1] Completed initialization in 1 ms
+2023-12-01 23:03:16,066 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-01 23:03:16,074 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-01 23:03:25,651 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-01 23:17:33,558 INFO c.e.S.SpringDemoBotParfumsApplication [main] Starting SpringDemoBotParfumsApplication using Java 17.0.9 with PID 27116 (G:\Hillel\Works\Test\SpringDemoBotParfums\target\classes started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
+2023-12-01 23:17:33,562 INFO c.e.S.SpringDemoBotParfumsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-01 23:17:34,976 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-01 23:17:35,127 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 132 ms. Found 3 JPA repository interfaces.
+2023-12-01 23:17:36,473 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2023-12-01 23:17:36,490 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2023-12-01 23:17:36,494 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-12-01 23:17:36,494 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-12-01 23:17:36,721 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-12-01 23:17:36,721 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3042 ms
+2023-12-01 23:17:37,043 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-01 23:17:37,140 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-01 23:17:37,217 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-01 23:17:37,689 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-01 23:17:37,729 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-01 23:17:38,826 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-01 23:17:39,070 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-01 23:17:40,852 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-01 23:17:41,119 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-01 23:17:43,078 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
+2023-12-01 23:17:43,132 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2023-12-01 23:17:43,236 INFO c.e.S.SpringDemoBotParfumsApplication [main] Started SpringDemoBotParfumsApplication in 10.456 seconds (process running for 11.989)
+2023-12-01 23:18:06,500 INFO o.a.c.c.C.[.[.[/] [http-nio-0.0.0.0-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-01 23:18:06,501 INFO o.s.w.s.DispatcherServlet [http-nio-0.0.0.0-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-12-01 23:18:06,504 INFO o.s.w.s.DispatcherServlet [http-nio-0.0.0.0-8080-exec-1] Completed initialization in 3 ms
+2023-12-01 23:18:21,617 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-01 23:18:21,628 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-01 23:18:30,572 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
