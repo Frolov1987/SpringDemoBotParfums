@@ -1,16 +1,12 @@
 {
   "build": {
     "type": "maven",
-    "goal": "package"
+    "goal": "build"
   },
   "deploy": {
-    "command": "mvn package",
-    "goal": "package",
-    "postCompile": [
-      {
-        "command": "mvn spring-boot:run",
-        "goal": "server"
+    "jar name": "build/libs/SpringDemoBotParfums-0.0.1-SNAPSHOT.jar"
+
       }
-    ]
-  }
+
+
 }
