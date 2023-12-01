@@ -5,6 +5,12 @@
   },
   "deploy": {
     "command": "mvn package",
-    "goal": "package"
+    "goal": "package",
+    "postCompile": [
+      {
+        "command": "mvn spring-boot:run",
+        "goal": "server"
+      }
+    ]
   }
 }

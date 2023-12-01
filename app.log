@@ -444,3 +444,31 @@ You may wish to exclude one of them to ensure predictable runtime behavior
 2023-12-01 15:46:12,636 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-12-01 15:46:12,639 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2023-12-01 15:46:13,084 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-01 15:54:31,158 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-01 15:54:31,312 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
+2023-12-01 15:54:31,729 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-12-01 15:54:31,746 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 11580 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
+2023-12-01 15:54:31,747 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-01 15:54:32,536 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-01 15:54:32,608 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2023-12-01 15:54:33,201 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-01 15:54:33,264 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-12-01 15:54:33,308 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2023-12-01 15:54:33,658 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-01 15:54:33,695 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-01 15:54:34,658 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-01 15:54:34,818 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-01 15:54:35,726 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-01 15:54:35,957 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-01 15:54:37,639 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 6.134 seconds (process running for 7.713)
+2023-12-01 15:54:38,402 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-01 15:54:38,406 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-01 15:54:38,746 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
