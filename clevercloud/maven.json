@@ -4,9 +4,13 @@
     "goal": "build"
   },
   "deploy": {
-    "jar name": "build/libs/SpringDemoBotParfums-0.0.1-SNAPSHOT.jar"
-
+    "command": "mvn package",
+    "goal": "package",
+    "postCompile": [
+      {
+        "command": "mvn spring-boot:run",
+        "goal": "server"
       }
-
-
+    ]
+  }
 }
