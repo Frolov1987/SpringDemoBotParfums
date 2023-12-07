@@ -167,6 +167,9 @@ public class TelegramBot extends TelegramLongPollingBot {
                         case "Lost Cherry Tom Ford":
                             sendProductDetails(chatId, 18);
                             break;
+                        case "Carat Cartier":
+                            sendProductDetails(chatId, 20);
+                            break;
 
                         case "Інтернет-магазин":
                             sendInlineKeyboard(chatId, "Перейти в інтернет-магазин", "https://kremchik.ua/customshop-24858/customshopedit#zakladki");
@@ -552,6 +555,7 @@ public class TelegramBot extends TelegramLongPollingBot {
 
                 row = new KeyboardRow();
                 row.add("Lost Cherry Tom Ford");
+                row.add("Carat Cartier");
                 keyboardRows.add(row);
 
                 row = new KeyboardRow();
