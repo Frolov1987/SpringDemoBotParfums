@@ -167,6 +167,21 @@ public class TelegramBot extends TelegramLongPollingBot {
                         case "Lost Cherry Tom Ford":
                             sendProductDetails(chatId, 18);
                             break;
+                        case "Carat Cartier":
+                            sendProductDetails(chatId, 20);
+                            break;
+                        case "Moon 1947 Gold Norana Perfumes":
+                            sendProductDetails(chatId, 22);
+                            break;
+                        case "Bois Imperial Essential Parfums":
+                            sendProductDetails(chatId, 23);
+                            break;
+                        case "Сторінка 4":
+                            sendShopKeyboard(chatId, 4);
+                            break;
+                        case "Honey Aoud Montale":
+                            sendProductDetails(chatId, 24);
+                            break;
 
                         case "Інтернет-магазин":
                             sendInlineKeyboard(chatId, "Перейти в інтернет-магазин", "https://kremchik.ua/customshop-24858/customshopedit#zakladki");
@@ -552,12 +567,33 @@ public class TelegramBot extends TelegramLongPollingBot {
 
                 row = new KeyboardRow();
                 row.add("Lost Cherry Tom Ford");
+                row.add("Carat Cartier");
+                keyboardRows.add(row);
+
+                row = new KeyboardRow();
+                row.add("Moon 1947 Gold Norana Perfumes");
+                row.add("Bois Imperial Essential Parfums");
+
                 keyboardRows.add(row);
 
                 row = new KeyboardRow();
                 row.add("Сторінка 2");
+                row.add("Сторінка 4");
+                keyboardRows.add(row);
+
+            } else if (page == 4) {
+                KeyboardRow row = new KeyboardRow();
+                row = new KeyboardRow();
+                row.add("Honey Aoud Montale");
+
+                keyboardRows.add(row);
+
+
+                row = new KeyboardRow();
+                row.add("Сторінка 3");
                 row.add("Головне меню");
                 keyboardRows.add(row);
+
 
             } else {
 
