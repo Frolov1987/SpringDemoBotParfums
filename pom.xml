@@ -115,13 +115,7 @@
 
 
 
-	<distributionManagement>
-		<repository>
-			<id>app_8351c6eb-078d-442f-80b0-2a64930bf635</id>
-			<name>SpringDemoBotParfums</name>
-			<url>http://app-8351c6eb-078d-442f-80b0-2a64930bf635.cleverapps.io/</url>
-		</repository>
-	</distributionManagement>
+
 
 
 	<pluginRepositories>
