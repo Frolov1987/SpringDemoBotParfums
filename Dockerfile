@@ -17,7 +17,7 @@ FROM openjdk:11-jdk-slim
 WORKDIR /app
 
 # Копируем JAR-файл из предыдущего этапа
-COPY --from=build /app/target/SpringDemoBotParfums-0.0.1-SNAPSHOT.jar
+COPY --from=build /app/target/SpringDemoBotParfums-0.0.1-SNAPSHOT.jar .
 
 # Указываем порт, который будет прослушивать приложение
 EXPOSE 8080
