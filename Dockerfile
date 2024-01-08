@@ -4,6 +4,10 @@ FROM maven:3.8.2-openjdk-17 AS build
 # Устанавливаем рабочую директорию внутри контейнера
 WORKDIR /app
 
+# Копируем go.mod и go.sum и скачиваем зависимости Go
+COPY go.mod go.sum ./
+RUN go mod download
+
 # Копируем все файлы из текущего каталога в рабочую директорию
 COPY . .
 
