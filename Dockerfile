@@ -1,28 +1,29 @@
 # Этот этап собирает приложение
-FROM golang:1.17-alpine as builder
+FROM maven:3.8.2-jdk-17 AS build
 
+# Устанавливаем рабочую директорию внутри контейнера
 WORKDIR /app
 
-# Копируем go.mod и go.sum и скачиваем зависимости
-COPY go.mod go.sum ./
-RUN go mod download
-
-# Копируем все остальные файлы
+# Копируем все файлы из текущего каталога в рабочую директорию
 COPY . .
 
-# Собираем приложение и сохраняем вывод
-RUN go build -o app 2>&1 | tee build.log
+# Выполняем сборку Maven проекта, пропуская тесты
+RUN mvn clean package -DskipTests
 
 # Этот этап собирает конечный образ
-FROM alpine:latest
+FROM openjdk:17-jdk-slim
 
+# Устанавливаем рабочую директорию внутри контейнера
 WORKDIR /app
 
-# Копируем исполняемый файл из предыдущего этапа
-COPY --from=builder /app/app .
+# Копируем JAR-файл из предыдущего этапа
+COPY --from=build /app/target/переименованное-название.jar demo.jar
 
 # Указываем порт, который будет прослушивать приложение
 EXPOSE 8080
 
+# Устанавливаем переменную окружения (если нужно)
+# ENV PORT=8080
+
 # Команда для запуска приложения при старте контейнера
-CMD ["./app"]
+ENTRYPOINT ["java", "-jar", "SpringDemoBotParfums-0.0.1-SNAPSHOT.jar"]
