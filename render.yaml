@@ -1,0 +1,6 @@
+services:
+  - name: web
+    plan: free
+    env:
+      - key: PORT
+        value: "8080"
