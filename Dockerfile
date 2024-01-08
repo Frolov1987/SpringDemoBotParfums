@@ -1,5 +1,5 @@
 # Этот этап собирает приложение
-FROM maven:3.8.2-RC2-openjdk-17 AS build
+FROM maven:3.8.2-openjdk-17 AS build
 
 # Устанавливаем рабочую директорию внутри контейнера
 WORKDIR /app
