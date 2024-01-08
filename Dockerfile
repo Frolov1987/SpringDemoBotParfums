@@ -1,5 +1,5 @@
 # Этот этап собирает приложение
-FROM maven:3.8.2-jdk-17 AS build
+FROM maven:3.8.2-jdk-11 AS build
 
 # Устанавливаем рабочую директорию внутри контейнера
 WORKDIR /app
@@ -11,7 +11,7 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 # Этот этап собирает конечный образ
-FROM openjdk:17-jdk-slim
+FROM openjdk:11-jdk-slim
 
 # Устанавливаем рабочую директорию внутри контейнера
 WORKDIR /app
