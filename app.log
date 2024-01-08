@@ -263,3 +263,6 @@ You may wish to exclude one of them to ensure predictable runtime behavior
 2024-01-08 21:22:44,290 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
 2024-01-08 21:22:44,484 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
 2024-01-08 21:22:44,662 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
+2024-01-08 21:30:39,154 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-08 21:30:39,156 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-01-08 21:30:39,164 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
