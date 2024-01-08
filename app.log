@@ -322,3 +322,25 @@ You may wish to exclude one of them to ensure predictable runtime behavior
 2024-01-08 22:45:15,493 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-01-08 22:45:15,496 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2024-01-08 22:45:15,509 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-01-08 22:51:29,279 INFO c.e.S.SpringDemoBotParfumsApplication [main] Starting SpringDemoBotParfumsApplication using Java 17.0.9 with PID 11540 (G:\Hillel\Works\Test\SpringDemoBotParfums\target\classes started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
+2024-01-08 22:51:29,282 INFO c.e.S.SpringDemoBotParfumsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-08 22:51:30,257 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-08 22:51:30,331 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
+2024-01-08 22:51:31,105 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-01-08 22:51:31,112 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-08 22:51:31,114 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-01-08 22:51:31,115 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-01-08 22:51:31,205 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-01-08 22:51:31,205 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1815 ms
+2024-01-08 22:51:31,411 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-08 22:51:31,481 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-01-08 22:51:31,527 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-01-08 22:51:31,800 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-01-08 22:51:31,832 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-01-08 22:51:32,256 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-01-08 22:51:32,310 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-01-08 22:51:33,383 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-01-08 22:51:33,431 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-08 22:51:34,834 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-01-08 22:51:34,864 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-01-08 22:51:34,948 INFO c.e.S.SpringDemoBotParfumsApplication [main] Started SpringDemoBotParfumsApplication in 6.238 seconds (process running for 7.308)
