@@ -1,400 +1,85 @@
-2024-01-08 18:51:43,881 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-01-08 18:51:44,167 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
-2024-01-08 18:51:44,644 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
-
-Found multiple occurrences of org.json.JSONObject on the class path:
-
-	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
-	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
-
-You may wish to exclude one of them to ensure predictable runtime behavior
-
-2024-01-08 18:51:44,665 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 14100 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
-2024-01-08 18:51:44,666 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
-2024-01-08 18:51:45,540 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 18:51:45,605 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 53 ms. Found 3 JPA repository interfaces.
-2024-01-08 18:51:46,152 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 18:51:46,238 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-01-08 18:51:46,281 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-01-08 18:51:46,695 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-08 18:51:46,733 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-01-08 18:51:47,140 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-01-08 18:51:47,269 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-01-08 18:51:48,411 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-08 18:51:48,461 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 18:51:50,264 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 5.841 seconds (process running for 7.977)
-2024-01-08 18:51:51,122 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 18:51:51,125 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-01-08 18:51:51,135 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2024-01-08 18:54:02,976 INFO c.e.S.SpringDemoBotParfumsApplication [main] Starting SpringDemoBotParfumsApplication using Java 17.0.9 with PID 16824 (G:\Hillel\Works\Test\SpringDemoBotParfums\target\classes started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
-2024-01-08 18:54:02,979 INFO c.e.S.SpringDemoBotParfumsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-01-08 18:54:04,033 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 18:54:04,124 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
-2024-01-08 18:54:04,988 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2024-01-08 18:54:04,997 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
-2024-01-08 18:54:05,000 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
-2024-01-08 18:54:05,001 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
-2024-01-08 18:54:05,106 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
-2024-01-08 18:54:05,106 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2029 ms
-2024-01-08 18:54:05,317 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 18:54:05,387 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-01-08 18:54:05,440 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-01-08 18:54:05,701 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-08 18:54:05,727 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-01-08 18:54:06,498 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-01-08 18:54:06,571 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-01-08 18:54:07,762 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-08 18:54:07,805 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 18:54:11,857 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
-2024-01-08 18:54:11,962 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
-2024-01-08 18:54:12,130 INFO c.e.S.SpringDemoBotParfumsApplication [main] Started SpringDemoBotParfumsApplication in 9.83 seconds (process running for 10.838)
-2024-01-08 19:40:19,220 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-01-08 19:40:19,369 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
-2024-01-08 19:40:19,910 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
-
-Found multiple occurrences of org.json.JSONObject on the class path:
-
-	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
-	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
-
-You may wish to exclude one of them to ensure predictable runtime behavior
-
-2024-01-08 19:40:19,940 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 3236 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
-2024-01-08 19:40:19,941 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
-2024-01-08 19:40:20,858 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 19:40:20,924 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
-2024-01-08 19:40:21,485 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 19:40:21,549 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-01-08 19:40:21,593 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-01-08 19:40:21,982 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-08 19:40:22,017 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-01-08 19:40:22,445 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-01-08 19:40:22,512 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-01-08 19:40:23,641 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-08 19:40:23,691 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 19:40:25,230 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 5.671 seconds (process running for 7.192)
-2024-01-08 19:40:25,410 ERROR o.t.t.u.DefaultBotSession [ParfumchikDemoBot Telegram Connection] Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseInternal(PartialBotApiMethod.java:54)
-	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseArray(PartialBotApiMethod.java:39)
-	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:83)
-	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:258)
+2024-01-09 09:26:14,254 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m59s886ms28µs).
+2024-01-09 09:28:03,443 INFO o.t.t.u.DefaultBotSession [ParfumchikDemoBot Telegram Connection] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:288)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:314)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:484)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1465)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1069)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:249)
 	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:188)
-2024-01-08 19:40:25,919 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 19:40:25,923 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-01-08 19:40:25,937 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2024-01-08 19:41:46,240 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-01-08 19:41:46,487 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
-2024-01-08 19:41:47,082 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
-
-Found multiple occurrences of org.json.JSONObject on the class path:
-
-	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
-	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
-
-You may wish to exclude one of them to ensure predictable runtime behavior
-
-2024-01-08 19:41:47,115 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 9932 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
-2024-01-08 19:41:47,118 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
-2024-01-08 19:41:47,971 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 19:41:48,085 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 101 ms. Found 3 JPA repository interfaces.
-2024-01-08 19:41:48,729 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 19:41:48,800 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-01-08 19:41:48,844 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-01-08 19:41:49,193 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-08 19:41:49,226 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-01-08 19:41:49,629 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-01-08 19:41:49,690 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-01-08 19:41:50,719 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-08 19:41:50,768 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 19:41:52,337 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 5.583 seconds (process running for 7.729)
-2024-01-08 19:41:52,506 ERROR o.t.t.u.DefaultBotSession [ParfumchikDemoBot Telegram Connection] Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Error executing org.telegram.telegrambots.meta.api.methods.updates.GetUpdates query: [409] Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseInternal(PartialBotApiMethod.java:54)
-	at org.telegram.telegrambots.meta.api.methods.PartialBotApiMethod.deserializeResponseArray(PartialBotApiMethod.java:39)
-	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:83)
-	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:258)
+2024-01-09 19:37:12,939 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h41m48s729ms749µs800ns).
+2024-01-09 19:37:13,091 ERROR o.t.t.u.DefaultBotSession [ParfumchikDemoBot Telegram Connection] Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:328)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:355)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:808)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:484)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1465)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1069)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:249)
 	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:188)
-2024-01-08 19:41:53,016 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 19:41:53,019 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-01-08 19:41:53,032 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2024-01-08 20:13:51,752 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 20:13:51,756 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-01-08 20:13:51,762 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2024-01-08 20:20:36,015 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-01-08 20:20:36,173 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
-2024-01-08 20:20:36,710 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
-
-Found multiple occurrences of org.json.JSONObject on the class path:
-
-	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
-	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
-
-You may wish to exclude one of them to ensure predictable runtime behavior
-
-2024-01-08 20:20:36,731 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 9412 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
-2024-01-08 20:20:36,732 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
-2024-01-08 20:20:37,608 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 20:20:37,677 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
-2024-01-08 20:20:38,199 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 20:20:38,281 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-01-08 20:20:38,323 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-01-08 20:20:38,677 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-08 20:20:38,719 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-01-08 20:20:39,176 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-01-08 20:20:39,251 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-01-08 20:20:40,277 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-08 20:20:40,336 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 20:20:41,855 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 5.447 seconds (process running for 7.317)
-2024-01-08 20:20:42,592 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 20:20:42,594 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-01-08 20:20:42,604 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2024-01-08 20:42:45,831 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-01-08 20:42:45,963 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
-2024-01-08 20:42:46,427 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
-
-Found multiple occurrences of org.json.JSONObject on the class path:
-
-	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
-	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
-
-You may wish to exclude one of them to ensure predictable runtime behavior
-
-2024-01-08 20:42:46,461 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 14412 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
-2024-01-08 20:42:46,462 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
-2024-01-08 20:42:47,284 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 20:42:47,349 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
-2024-01-08 20:42:47,894 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 20:42:47,950 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-01-08 20:42:47,998 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-01-08 20:42:48,373 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-08 20:42:48,409 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-01-08 20:42:48,802 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-01-08 20:42:48,870 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-01-08 20:42:49,941 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-08 20:42:49,998 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 20:42:51,738 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 5.582 seconds (process running for 7.17)
-2024-01-08 20:42:52,497 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 20:42:52,500 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-01-08 20:42:52,518 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2024-01-08 20:44:01,854 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-01-08 20:44:02,014 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
-2024-01-08 20:44:02,482 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
-
-Found multiple occurrences of org.json.JSONObject on the class path:
-
-	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
-	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
-
-You may wish to exclude one of them to ensure predictable runtime behavior
-
-2024-01-08 20:44:02,499 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 13460 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
-2024-01-08 20:44:02,500 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
-2024-01-08 20:44:03,312 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 20:44:03,391 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces.
-2024-01-08 20:44:03,966 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 20:44:04,053 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-01-08 20:44:04,108 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-01-08 20:44:04,515 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-08 20:44:04,558 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-01-08 20:44:04,974 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-01-08 20:44:05,046 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-01-08 20:44:06,135 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-08 20:44:06,189 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 20:44:07,665 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 5.433 seconds (process running for 7.087)
-2024-01-08 20:44:08,377 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 20:44:08,380 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-01-08 20:44:08,401 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2024-01-08 21:11:27,283 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-01-08 21:11:27,417 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
-2024-01-08 21:11:27,853 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
-
-Found multiple occurrences of org.json.JSONObject on the class path:
-
-	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
-	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
-
-You may wish to exclude one of them to ensure predictable runtime behavior
-
-2024-01-08 21:11:27,871 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 3220 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
-2024-01-08 21:11:27,872 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
-2024-01-08 21:11:28,691 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 21:11:28,763 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
-2024-01-08 21:11:29,388 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 21:11:29,487 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-01-08 21:11:29,534 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-01-08 21:11:29,968 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-08 21:11:30,009 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-01-08 21:11:30,520 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-01-08 21:11:30,624 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-01-08 21:11:32,041 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-08 21:11:32,102 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 21:11:33,850 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 6.228 seconds (process running for 7.687)
-2024-01-08 21:11:34,738 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user ���������
-2024-01-08 21:11:34,831 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user ���������
-2024-01-08 21:11:34,930 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user ���������
-2024-01-08 21:11:34,941 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 21:11:34,946 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-01-08 21:11:34,960 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2024-01-08 21:22:36,781 INFO c.e.S.SpringDemoBotParfumsApplication [main] Starting SpringDemoBotParfumsApplication using Java 17.0.9 with PID 3036 (G:\Hillel\Works\Test\SpringDemoBotParfums\target\classes started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
-2024-01-08 21:22:36,786 INFO c.e.S.SpringDemoBotParfumsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-01-08 21:22:37,877 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 21:22:37,952 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
-2024-01-08 21:22:38,768 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2024-01-08 21:22:38,775 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-0.0.0.0-8080"]
-2024-01-08 21:22:38,778 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
-2024-01-08 21:22:38,778 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.16]
-2024-01-08 21:22:38,863 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
-2024-01-08 21:22:38,864 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1977 ms
-2024-01-08 21:22:39,094 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 21:22:39,189 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-01-08 21:22:39,238 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-01-08 21:22:39,544 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-08 21:22:39,573 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-01-08 21:22:39,957 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-01-08 21:22:40,016 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-01-08 21:22:41,127 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-08 21:22:41,190 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 21:22:42,742 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-0.0.0.0-8080"]
-2024-01-08 21:22:42,771 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
-2024-01-08 21:22:42,884 INFO c.e.S.SpringDemoBotParfumsApplication [main] Started SpringDemoBotParfumsApplication in 6.688 seconds (process running for 7.863)
-2024-01-08 21:22:43,684 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
-2024-01-08 21:22:44,192 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
-2024-01-08 21:22:44,290 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
-2024-01-08 21:22:44,484 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
-2024-01-08 21:22:44,662 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
-2024-01-08 21:30:39,154 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 21:30:39,156 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-01-08 21:30:39,164 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2024-01-08 22:38:41,777 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-01-08 22:38:41,925 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
-2024-01-08 22:38:42,372 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
-
-Found multiple occurrences of org.json.JSONObject on the class path:
-
-	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
-	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
-
-You may wish to exclude one of them to ensure predictable runtime behavior
-
-2024-01-08 22:38:42,394 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 19216 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
-2024-01-08 22:38:42,395 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
-2024-01-08 22:38:43,248 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 22:38:43,328 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
-2024-01-08 22:38:43,862 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 22:38:43,931 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-01-08 22:38:43,974 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-01-08 22:38:44,332 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-08 22:38:44,384 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-01-08 22:38:44,805 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-01-08 22:38:44,920 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-01-08 22:38:46,040 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-08 22:38:46,098 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 22:38:47,676 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 5.554 seconds (process running for 7.181)
-2024-01-08 22:38:48,600 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 22:38:48,603 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-01-08 22:38:48,614 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2024-01-08 22:45:08,265 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests]: SpringDemoBotParfumsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-01-08 22:45:08,394 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplication for test class com.example.SpringDemoBotParfums.SpringDemoBotParfumsApplicationTests
-2024-01-08 22:45:08,845 WARN o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
-
-Found multiple occurrences of org.json.JSONObject on the class path:
-
-	jar:file:/C:/Users/Admin/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
-	jar:file:/C:/Users/Admin/.m2/repository/org/json/json/20170516/json-20170516.jar!/org/json/JSONObject.class
-
-You may wish to exclude one of them to ensure predictable runtime behavior
-
-2024-01-08 22:45:08,863 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Starting SpringDemoBotParfumsApplicationTests using Java 17.0.9 with PID 16212 (started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
-2024-01-08 22:45:08,864 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] No active profile set, falling back to 1 default profile: "default"
-2024-01-08 22:45:09,690 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 22:45:09,784 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 86 ms. Found 3 JPA repository interfaces.
-2024-01-08 22:45:10,492 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 22:45:10,574 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-01-08 22:45:10,621 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-01-08 22:45:10,977 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-08 22:45:11,014 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-01-08 22:45:11,420 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-01-08 22:45:11,493 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-01-08 22:45:12,702 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-08 22:45:12,754 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 22:45:14,499 INFO c.e.S.SpringDemoBotParfumsApplicationTests [main] Started SpringDemoBotParfumsApplicationTests in 5.883 seconds (process running for 7.494)
-2024-01-08 22:45:15,493 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 22:45:15,496 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-01-08 22:45:15,509 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2024-01-08 22:51:29,279 INFO c.e.S.SpringDemoBotParfumsApplication [main] Starting SpringDemoBotParfumsApplication using Java 17.0.9 with PID 11540 (G:\Hillel\Works\Test\SpringDemoBotParfums\target\classes started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
-2024-01-08 22:51:29,282 INFO c.e.S.SpringDemoBotParfumsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-01-08 22:51:30,257 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 22:51:30,331 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63 ms. Found 3 JPA repository interfaces.
-2024-01-08 22:51:31,105 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2024-01-08 22:51:31,112 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
-2024-01-08 22:51:31,114 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
-2024-01-08 22:51:31,115 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.16]
-2024-01-08 22:51:31,205 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
-2024-01-08 22:51:31,205 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1815 ms
-2024-01-08 22:51:31,411 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 22:51:31,481 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-01-08 22:51:31,527 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-01-08 22:51:31,800 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-08 22:51:31,832 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-01-08 22:51:32,256 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-01-08 22:51:32,310 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-01-08 22:51:33,383 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-08 22:51:33,431 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 22:51:34,834 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
-2024-01-08 22:51:34,864 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
-2024-01-08 22:51:34,948 INFO c.e.S.SpringDemoBotParfumsApplication [main] Started SpringDemoBotParfumsApplication in 6.238 seconds (process running for 7.308)
-2024-01-08 23:15:42,680 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 23:15:42,682 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-01-08 23:15:42,689 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2024-01-08 23:15:52,226 INFO c.e.S.SpringDemoBotParfumsApplication [main] Starting SpringDemoBotParfumsApplication using Java 17.0.9 with PID 20400 (G:\Hillel\Works\Test\SpringDemoBotParfums\target\classes started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
-2024-01-08 23:15:52,233 INFO c.e.S.SpringDemoBotParfumsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-01-08 23:15:53,369 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 23:15:53,455 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 74 ms. Found 3 JPA repository interfaces.
-2024-01-08 23:15:54,823 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2024-01-08 23:15:54,832 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
-2024-01-08 23:15:54,835 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
-2024-01-08 23:15:54,835 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.16]
-2024-01-08 23:15:54,958 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
-2024-01-08 23:15:54,959 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2625 ms
-2024-01-08 23:15:55,243 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 23:15:55,367 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-01-08 23:15:55,416 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-01-08 23:15:55,691 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-08 23:15:55,738 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-01-08 23:15:56,198 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-01-08 23:15:56,304 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-01-08 23:15:57,349 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-08 23:15:57,396 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 23:15:58,876 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
-2024-01-08 23:15:58,906 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
-2024-01-08 23:15:58,995 INFO c.e.S.SpringDemoBotParfumsApplication [main] Started SpringDemoBotParfumsApplication in 7.549 seconds (process running for 8.78)
-2024-01-08 23:19:16,609 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 23:19:16,611 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-01-08 23:19:16,617 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
-2024-01-08 23:30:48,361 INFO c.e.S.SpringDemoBotParfumsApplication [main] Starting SpringDemoBotParfumsApplication using Java 19.0.1 with PID 16648 (G:\Hillel\Works\Test\SpringDemoBotParfums\target\classes started by Admin in G:\Hillel\Works\Test\SpringDemoBotParfums)
-2024-01-08 23:30:48,363 INFO c.e.S.SpringDemoBotParfumsApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-01-08 23:30:48,990 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 23:30:49,038 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
-2024-01-08 23:30:49,601 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
-2024-01-08 23:30:49,608 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
-2024-01-08 23:30:49,610 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
-2024-01-08 23:30:49,610 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.16]
-2024-01-08 23:30:49,677 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
-2024-01-08 23:30:49,677 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1261 ms
-2024-01-08 23:30:49,813 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 23:30:49,862 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.3.1.Final
-2024-01-08 23:30:49,895 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
-2024-01-08 23:30:50,096 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-01-08 23:30:50,118 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
-2024-01-08 23:30:50,406 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
-2024-01-08 23:30:50,453 WARN o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-01-08 23:30:51,291 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-01-08 23:30:51,334 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 23:30:52,495 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
-2024-01-08 23:30:52,510 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
-2024-01-08 23:30:52,599 INFO c.e.S.SpringDemoBotParfumsApplication [main] Started SpringDemoBotParfumsApplication in 4.593 seconds (process running for 5.198)
-2024-01-08 23:30:53,942 INFO c.e.S.s.TelegramBot [ParfumchikDemoBot Telegram Executor] Replied to user Александр
-2024-01-08 23:31:07,832 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 23:31:07,835 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
-2024-01-08 23:31:07,839 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-01-09 19:37:13,604 ERROR o.t.t.u.DefaultBotSession [ParfumchikDemoBot Telegram Connection] Этот хост неизвестен (api.telegram.org)
+java.net.UnknownHostException: Этот хост неизвестен (api.telegram.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:934)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1385)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1306)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:249)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:188)
+2024-01-09 20:06:22,474 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-09 20:06:22,519 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-01-09 20:06:22,532 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
