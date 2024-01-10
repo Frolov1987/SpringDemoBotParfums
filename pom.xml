@@ -62,9 +62,9 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<version>42.2.23</version> <!-- Замените на актуальную версию -->
-			<scope>runtime</scope>
+			<version>42.7.1</version>
 		</dependency>
+
 
 
 		<dependency>
